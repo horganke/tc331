@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mario Party</title>
+<script src="main.js"></script>
+
+<body> 
+<h1>Mario Party</h1>
+<h3>Description</h3>
+<p>This is form to keep track of who will be what character in the upcoming Mario Party tournament! The version we will be playing is Mario Party 6 for the Gamecube </p>
+
+<form action="#" method="post" id="form">
+	<fieldset><legend>Character Sign Up </legend>
+    	<div><label for="first_name">First Name</label><input type="text" name="first_name" id="first_name" required></div>
+        <div><label for="last_name">Last Name</label><input type="text" name="last_name" id="last_name" required></div>
+        <div><label for="character">Character</label><select name="character" id="character">
+        	<option value="Mario">Mario</option>
+            <option value="Luigi">Luigi</option>
+            <option value="Peach">Peach</option>
+            <option value="Daisy">Daisy</option>
+            <option value="Toad">Toad</option>
+            <option value="Yoshi">Yoshi</option>
+            <option value="Wario">Wario</option>
+            <option value="Waluigi">Waluigi</option>
+             <option value="Boo">Boo</option>
+            <option value="Koopa Kid">Koopa Kid</option>
+            </select></div>
+        <input type="submit" value="Add" id="Add">
+	</fieldset>
+</form>
+<h3>Players</h3>
+<pre><div id="table">
+</div></pre>
+</body>
+</html>
+

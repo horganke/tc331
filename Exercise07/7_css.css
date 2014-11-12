@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #00000;
+	padding:10px;
+	border-style: solid;
+	border-width: 10px; 
+	background-color:#D9C99A;
+	background-image:url(../week2-2/gradient_background.jpg);
+	background-repeat: repeat-x;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+	background-color:#3B3B3B;
+}
+
+h1 {
+	text-align:center;
+	
+}
+
+p {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #000;
+	bot
+}
+
+.character{
+	  margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}

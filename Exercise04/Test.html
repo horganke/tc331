@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercise 5</title>
+<script src="calc.js"></script>
+</head>
+
+<body>
+<h1>Rubric</h1>
+<table>
+    <tr>
+        <td><label for="Exercises">Exercises</label></td>
+        <td><input type="number" name="exercises" id="exercises" required></td>
+    </tr>
+    <tr>
+        <td><label for="mini">Mini-Projects</label></td>
+        <td><input type="number" name="mini" id="mini" required></td>
+    </tr>
+    <tr>
+        <td><label for="Final">Final</label></td>
+        <td><input type="number" name="Final" id="Final" required></td>
+    </tr>
+</table>
+
+<h1>Grades</h1>
+<form action="" method="post" id="form">
+    <table>
+        <tr>
+            <td></td>
+            <td>Name</td>
+            <td>Type</td>
+            <td>Grade</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td><input type="text" name="name1" id="name1"></td>
+            <td>
+                <select name="type1" id="type1" required> 
+                <option value="exercise">Exercises</option>
+                <option value="mini">Mini-Projects</option>
+                <option value="Final">Final</option></select>
+            </td>
+            <td><input type="number" name="grade1" id="grade1"></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td><input type="text" name="name2" id="name2"></td>
+            <td>
+                <select name="type2" id="type2" required> 
+                <option value="exercise">Exercises</option>
+                <option value="mini">Mini-Projects</option>
+                <option value="Final">Final</option></select>
+            </td>
+            <td><input type="number" name="grade2" id="grade2"></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td><input type="text" name="name3" id="name3"></td>
+            <td>
+                <select name="type3" id="type3" required> 
+                <option value="exercise">Exercises</option>
+                <option value="mini">Mini-Projects</option>
+                <option value="Final">Final</option></select>
+            </td>
+            <td><input type="number" name="grade3" id="grade3"></td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td><input type="text" name="name4" id="name4"></td>
+            <td>
+                <select name="type4" id="type4" required> 
+                <option value="exercise">Exercises</option>
+                <option value="mini">Mini-Projects</option>
+                <option value="Final">Final</option></select>
+            </td>
+            <td><input type="number" name="grade4" id="grade4"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Calculate" id="submit"></td>
+            <td>Total</td>
+            <td><input type="number" name="total" id="total" value="0"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

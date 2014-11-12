@@ -1,0 +1,34 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shop</title>
+<link href="final.css" type="text/css" rel="stylesheet"/>
+<script src="main.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+<p id="mainname">Name</p>
+<h2>Products</h2>
+
+<ul>
+	<li><h3>Tuner - $12</h3><img src="images/tuner.jpg"/><p>Make sure you're always in tune with this great electronic tuner! Picks up sound or you can plug directly in.</p><div><input type="checkbox" id="tuner"/><label for="tuner">Quantity</label><input type="text" id="tuner_quantity" value="0"/></div></li>
+    <li><h3>Guitar Case - $50</h3><img src="images/case.jpg"/><p>Deluxe hard shell case that is built road-tough.</p><div><input type="checkbox" id="case"/><label for="case">Quantity</label><input type="text" id="case_quantity" value="0"/></div></li>
+    <li><h3>Picks - $1</h3><img src="images/picks.jpg"/><p>10 pack of mixed picks!</p><div><input type="checkbox" id="pick"/><label for="pick">Quantity</label><input type="text" id="pick_quantity" value="0"/></div></li>
+</ul>
+	<button id="check" onclick="checkout()">Check Out</button>
+
+</div>
+<div id="modal">
+<div id="modalmask">
+<div id="modalcontent">
+	<p>Please choose at least one product!</p>
+    <button id="closemodal" onclick="close_modal()">Close</button>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercise 7</title>
+<link href="7_css.css" rel="stylesheet" type="text/css">
+<script src="main.js"></script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<h1>Character Creator</h1>
+<p>Time to play some war games! Choose your name, your gender, the class of sodier you want to be, and your alliance. Then add and subtract points from the areas of overall health, speed, and strength to make a unique character! These point are randomly assign by the rolling of three six-sided dice for each attribute. You can re-roll the points at any time and then add and subtract to your preference.</p>
+<table class="character">
+<tr>
+<td><label for="Name">Name</label></td><td><input type="text" name="Name" id="Name"></td>
+</tr>
+<tr>
+<td><label for="Class">Class</label></td><td><select name="Class" id="Class">
+<option value="Select a class" disabled="disabled" selected="selected">Select a class</option>
+  <option value="Scout">Scout</option>
+  <option value="Sniper"> Sniper </option>
+  <option value="Heavy">Heavy</option>
+  <option value="Engineer">Engineer </option>
+  <option value="Demolitions">Demolitions</option>
+  </select></td>
+</tr>
+<tr>
+<td><label for="Alliance">Alliance</label></td><td><select name="Alliance" id="Alliance">
+<option value="Select an alliance" disabled="disabled" selected="selected">Select an alliance</option>
+  <option value="Rebels">Rebels</option>
+  <option value="Empire">Empire</option>
+  </select></td>
+</tr>
+<tr>
+<td><label for="Gender">Gender</label></td><td><select name="Gender" id="Gender">
+<option value="Select a gender" disabled="disabled" selected="selected">Select a gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  </select></td>
+</tr>
+</table>
+
+<fieldset><legend>Attributes</legend>
+<table class="main">
+<tr>
+<td><label for="Health">Health</label></td><td><button onclick="subtract('health')"><img src="volume_down.png" width="25px" height="25px"/></button><input type="number" name="health" id="health" /><button onclick="add('health')"><img src="volume_up.png" width="25px" height="25px"/></button></td>
+</tr><tr>
+<td><label for="Speed">Speed</label></td><td><button onclick="subtract('speed')"><img src="volume_down.png" width="25px" height="25px"/></button><input type="number" name="speed" id="speed" /><button onclick="add('speed')"><img src="volume_up.png" width="25px" height="25px"/></button></td>
+</tr><tr>
+<td><label for="Strength">Strength</label></td><td><button onclick="subtract('strength')"><img src="volume_down.png" width="25px" height="25px"/></button><input type="number" name="strength" id="strength" /><button onclick="add('strength')"><img src="volume_up.png" width="25px" height="25px"/></button></td>
+</tr><tr>
+<td><label for="unspent">Unspent Points</label></td><td><input type="number" name="unspent" id="unspent" /></td>
+</tr>
+<tr><td><button onclick="reroll()">Re-roll</button></td></tr>
+</table>
+</fieldset>
+
+</body>
+</html>

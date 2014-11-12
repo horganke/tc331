@@ -1,0 +1,67 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1135" measuredH="439" mockupW="802" mockupH="405">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="333" y="34" w="801" h="405" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="333" y="353" w="688" h="58" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>0</color>
+        <size>18</size>
+        <text>Welcome%20to%20the%20Solar%20System%21%20The%20Solar%20System%20comprises%20the%20Sun%20and%20its%20planetary%20system%20of%20eight%20planets.%20Use%20the%20navigation%20above%20above%20to%20learn%20more%21</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Image" x="333" y="131" w="625" h="280" measuredW="1593" measuredH="806" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <crop>0%2C232%2C948%2C768</crop>
+        <src>./solar%2520system.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::ButtonBar" x="333" y="109" w="802" h="29" measuredW="717" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>The%20Solar%20System%2C%20The%20Sun%2C%20Mercury%2C%20Venus%2C%20Earth%2C%20Mars%2C%20Jupiter%2C%20Saturn%2C%20Uranus%2C%20Neptune</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="958" y="252" w="175" h="159" measuredW="200" measuredH="212" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>0</color>
+        <position>right</position>
+        <text>Keywords%0APyramid%20of%20Needs%0AKano%20Board%0A%20Mood%20Board%0A%20Wireframes</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::ModalScreen" x="1021" y="131" w="113" h="280" measuredW="320" measuredH="240" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Canvas" x="958" y="252" w="63" h="23" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Canvas" x="958" y="275" w="62" h="83" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Paragraph" x="1021" y="186" w="113" h="101" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>0</color>
+        <size>18</size>
+        <text>Production%20%0AProcess</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Canvas" x="958" y="131" w="63" h="121" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

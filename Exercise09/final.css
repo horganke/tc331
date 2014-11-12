@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url("../Final/final.css");
+/* Kevin Horgan's CSS Document. 
+Dark Green: #55581f
+Black: #00000
+Cream: #D9C99A
+Grey: #3B3B3B
+Orange: #D96704
+Yellow: #FF6
+*/
+
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #00000;
+	border-style: solid;
+	border-width: 10px; 
+	background-color: #3eafd1;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+	background-color:#42413C;
+}
+
+p {
+	padding: 0 10px 0 10px;
+}
+
+h1 {
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #00000;
+
+}
+
+h2 {
+	padding: 7px;
+	color: #FF6;
+	background-color: #3B3B3B;
+}
+
+h3 {
+	color: #D96704;
+	text-decoration:underline;
+	margin-left:10px;
+	
+}
+
+.menu{
+	margin: auto;
+	width:300px;
+
+}
+
+.menu a {
+	padding-left: 5px;
+}
+
+.container{
+	width:600px;
+	margin:20px auto;
+	border:1px solid #000;
+	background:#fff;
+	padding:10px;
+}
